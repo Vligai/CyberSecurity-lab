@@ -1,0 +1,48 @@
+Manifest-Version: 1.0
+Created-By: 1.6.0_24 (Sun Microsystems Inc.)
+
+Name: res/xml/preferences.xml
+SHA1-Digest: +A0Wzahn/6dyg79sXwhq1g8n+8w=
+
+Name: res/layout/edit.xml
+SHA1-Digest: LBb3nboGoYO0KL+p3nuQZ3SW/Do=
+
+Name: res/layout/list.xml
+SHA1-Digest: GTv4dY8okvki90vuv+3s2xRM8Vw=
+
+Name: res/layout/row_small.xml
+SHA1-Digest: wsZwxPnTOPLcnWFG2qr3mgX5Ve8=
+
+Name: resources.arsc
+SHA1-Digest: ozNFgOl0yc6Ivh/1K6gXlTpkvvU=
+
+Name: classes.dex
+SHA1-Digest: WCYZQ65E5rlN3hbPus+yxEOsrv0=
+
+Name: res/layout/export.xml
+SHA1-Digest: HKSqjjetHUE5swjxVSZ0GqhPxfY=
+
+Name: res/drawable-ldpi-v6/icon.png
+SHA1-Digest: iSUz40htuGuJAMjMImu9pvheaEw=
+
+Name: AndroidManifest.xml
+SHA1-Digest: wpOnqhbNoIRdSFYRTHRX5xvvyMA=
+
+Name: res/drawable/icon.png
+SHA1-Digest: FQv0XoLKrVjE6VtPoPIr9zi9w9k=
+
+Name: res/layout/edit_title.xml
+SHA1-Digest: XXJZUYlvKZvPH0K802xB0DBLCAg=
+
+Name: res/xml/searchable.xml
+SHA1-Digest: fVE+aNCPM0r7Lr3ntfVpkDGJkRM=
+
+Name: res/layout/row_large.xml
+SHA1-Digest: POHoBjUK2eqkA/kHS2JXPwDvELM=
+
+Name: res/drawable-hdpi-v6/icon.png
+SHA1-Digest: DcvoknUVM2sxHyZhztqEiz4lWpM=
+
+Name: res/drawable-mdpi-v6/icon.png
+SHA1-Digest: GcgUj892zjiVloJKdRCEGNC3dQU=
+

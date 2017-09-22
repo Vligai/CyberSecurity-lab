@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference android:title="@string/pref_listItemSize" android:key="listItemSize" android:defaultValue="true" android:summaryOn="@string/pref_listItemSizeSummaryOn" android:summaryOff="@string/pref_listItemSizeSummaryOff" />
+    <ListPreference android:entries="@array/sortOrderEntries" android:title="@string/pref_sortOrder" android:key="sortOrder" android:summary="@string/pref_sortOrderSummary" android:defaultValue="1" android:entryValues="@array/sortOrderValues" />
+    <CheckBoxPreference android:title="@string/pref_sortAscending" android:key="sortAscending" android:defaultValue="true" android:summaryOn="@string/pref_sortAscendingSummaryOn" android:summaryOff="@string/pref_sortAscendingSummaryOff" />
+    <ListPreference android:entries="@array/textSizeEntries" android:title="@string/pref_textSize" android:key="textSize" android:summary="@string/pref_textSizeSummary" android:defaultValue="16" android:entryValues="@array/textSizeValues" />	/>
+<CheckBoxPreference android:title="@string/pref_deleteConfirmation" android:key="deleteConfirmation" android:defaultValue="true" android:summaryOn="@string/pref_deleteConfirmationSummaryOn" android:summaryOff="@string/pref_deleteConfirmationSummaryOff" />
+    <CheckBoxPreference android:title="@string/pref_rememberPosition" android:key="rememberPosition" android:defaultValue="true" android:summaryOn="@string/pref_rememberPositionSummaryOn" android:summaryOff="@string/pref_rememberPositionSummaryOff" />
+    <PreferenceCategory android:title="@string/pref_notes">
+        <PreferenceScreen android:title="@string/pref_export" android:summary="@string/pref_exportSummary">
+            <intent android:targetPackage="bander.notepad" android:action="bander.notepad.action.ACTION_EXPORT" android:targetClass="bander.notepad.NoteExport" />
+        </PreferenceScreen>
+        <PreferenceScreen android:title="@string/pref_import" android:summary="@string/pref_importSummary">
+            <intent android:targetPackage="bander.notepad" android:action="bander.notepad.action.ACTION_IMPORT" android:targetClass="bander.notepad.NoteImport" />
+        </PreferenceScreen>
+    </PreferenceCategory>
+</PreferenceScreen>

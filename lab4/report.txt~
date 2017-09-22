@@ -1,0 +1,27 @@
+
+Finding the address of unbelievable:
+-> gdb ./stack_overflow
+-> disas *main
+-> print unbelievable
+
+Finding the address of puts:
+-> gdb ./stack_overflow
+-> disas *main
+-> print puts
+
+Finding the number of A's to be put in the buffer:
+	I didn't use the best aproach to finding the number of A's needed to overflow the stack. I started with 280 A's and was reducing and increasing the number based on the output of when I ran the exploit
+
+Building and running exploit:
+	 Exploits are named: exploit1.c; exploit2.c; exploit3.c, depending on which attack the perform. If you want to run attack 1 run exploit1.c etc. 
+To build and run the exploit:
+-> gcc -o exploit1 exploit1.c
+-> ./exploit1 > exploit1.txt
+-> gdb ./stack_overflow
+(gdb) r < exploit1.txt
+
+Developing the exploit for first attack:
+	  First attack simply required me to call the unbelievable function from stack_overflow.c. To do that first I ran 'gdb ./stack_overflow' and found the address of unbelievable() using 'print unbelievable'. Then I added it's address at the end of my buffer of A's.
+
+Developing the exploit for second attack:
+	   Second attack required us to print the string "Hello, world\n" to standard output using one of the C library's string printing function. I used puts() as printing function, because it adds a new line after strings, making it a little bit more convenient. I found the address of puts by following same procedure as finding address of unbelievable(), but printing puts() instead. I modified my previous buffer, by removing 

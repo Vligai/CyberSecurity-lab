@@ -1,0 +1,26 @@
+http://www.xsslabcollabtive.com/admin.php?action=addpro
+
+POST /admin.php?action=addpro HTTP/1.1
+Host: www.xsslabcollabtive.com
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:23.0) Gecko/20100101 Firefox/23.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.xsslabcollabtive.com/index.php
+Cookie: PHPSESSID=udaujefevmj43ilqrg414tnon6
+Connection: keep-alive
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 92
+name=heeelp&desc=plz&end=27.10.2015&budget=9000&assignto%5B%5D=2&assignto%5B%5D=1&assignme=1
+
+http://www.xsslabcollabtive.com/admin.php?action=projects&mode=added
+
+GET /admin.php?action=projects&mode=added HTTP/1.1
+Host: www.xsslabcollabtive.com
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:23.0) Gecko/20100101 Firefox/23.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.xsslabcollabtive.com/index.php
+Cookie: PHPSESSID=udaujefevmj43ilqrg414tnon6
+Connection: keep-alive

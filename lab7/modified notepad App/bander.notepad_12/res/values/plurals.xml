@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="search_results">
+        <item quantity="other">"%1$d results for '%2$s'"</item>
+        <item quantity="one">"%1$d result for '%2$s'"</item>
+    </plurals>
+    <plurals name="export_done">
+        <item quantity="other">"Exported %1$d notes to '%2$s'."</item>
+        <item quantity="one">"Exported %1$d note to '%2$s'."</item>
+    </plurals>
+    <plurals name="import_done">
+        <item quantity="other">"Imported %1$d notes from '%2$s'."</item>
+        <item quantity="one">"Imported %1$d note from '%2$s'."</item>
+    </plurals>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="body">false</item>
+    <item type="id" name="confirm">false</item>
+    <item type="id" name="cancel">false</item>
+    <item type="id" name="title">false</item>
+    <item type="id" name="progress_label">false</item>
+    <item type="id" name="progress_bar">false</item>
+    <item type="id" name="action">false</item>
+</resources>
